@@ -23,7 +23,7 @@
 
   event-handler:
     container_name: jarvis-event-handler
-    image: ${EVENT_HANDLER_IMAGE_URL:-stephengpope/jarvis:event-handler-${jarvis_VERSION:-latest}}
+    image: ${EVENT_HANDLER_IMAGE_URL:-jonathanbrightampwera/jarvis:event-handler-${jarvis_VERSION:-latest}}
     volumes:
       - .:/app
       - /app/node_modules

@@ -50,7 +50,7 @@ You interact with your bot via the web chat interface or Telegram (optional). Th
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=stephengpope/jarvis&type=date&legend=top-left)](https://www.star-history.com/#stephengpope/jarvis&type=date&legend=top-left)
+[![Star History Chart](https://api.star-history.com/svg?repos=JonathanBrightAmpwera/jarvis&type=date&legend=top-left)](https://www.star-history.com/#JonathanBrightAmpwera/jarvis&type=date&legend=top-left)
 
 ---
 

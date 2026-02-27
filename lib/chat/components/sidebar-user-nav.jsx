@@ -53,7 +53,7 @@ export function SidebarUserNav({ user, collapsed }) {
                 <span className="ml-2">{theme === 'dark' ? 'Light Mode' : 'Dark Mode'}</span>
               </DropdownMenuItem>
             )}
-            <DropdownMenuItem onClick={() => window.open('https://github.com/stephengpope/jarvis/issues', '_blank')}>
+            <DropdownMenuItem onClick={() => window.open('https://github.com/JonathanBrightAmpwera/jarvis/issues', '_blank')}>
               <BugIcon size={14} />
               <span className="ml-2">Report Issues</span>
             </DropdownMenuItem>

@@ -44,7 +44,7 @@ Before running `docker-compose up`, the user must run `npm run build` on the hos
 | Service | Image | Purpose |
 |---------|-------|---------|
 | **traefik** | `traefik:v3` | Reverse proxy with automatic HTTPS (Let's Encrypt) |
-| **event-handler** | `stephengpope/jarvis:event-handler-${jarvis_VERSION}` | Node.js runtime + PM2, serves the bind-mounted Next.js app on port 80 |
+| **event-handler** | `jonathanbrightampwera/jarvis:event-handler-${jarvis_VERSION}` | Node.js runtime + PM2, serves the bind-mounted Next.js app on port 80 |
 | **runner** | `myoung34/github-runner:latest` | Self-hosted GitHub Actions runner for executing jobs |
 
 The runner registers as a self-hosted GitHub Actions runner, enabling `run-job.yml` to spin up Docker agent containers directly on your server. It also has a read-only volume mount (`.:/project:ro`) so `upgrade-event-handler.yml` can run `docker compose` commands against the project's compose file.
